@@ -98,7 +98,7 @@ export default function Home() {
               Let's talk
             </Button>
             {profile.resumeUrl && (
-              <a href={profile.resumeUrl} download="Shahadat_Resume.pdf">
+              <a href={profile.resumeUrl} target="_blank" download="Shahadat_Resume.pdf">
                 <Button variant="secondary">Download resume</Button>
               </a>
             )}
