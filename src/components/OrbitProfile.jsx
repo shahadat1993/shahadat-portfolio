@@ -28,7 +28,7 @@ export default function OrbitProfile() {
       </motion.div>
 
       <div className="absolute inset-[16%] rounded-full overflow-hidden ring-4" style={{ '--tw-ring-color': 'var(--accent)' }}>
-        <img src='../../public/CV.png' alt={profile.name} className="w-full h-full object-cover" />
+        <img src={profile.photo} alt={profile.name} className="w-full h-full object-cover" />
       </div>
     </div>
   );
