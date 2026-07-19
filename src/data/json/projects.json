@@ -1,0 +1,107 @@
+{
+  "categories": ["All", "E-commerce", "LMS", "Mobile App", "Landing Page"],
+  "items": [
+    {
+      "id": 1,
+      "slug": "shopbd-ecommerce",
+      "title": "ShopBD",
+      "category": "E-commerce",
+      "badge": "Full Stack",
+      "short_description": "Full-stack e-commerce platform with RBAC, payments, and a mobile app.",
+      "description": "ShopBD is a complete e-commerce system built with Laravel and a React Native (Expo) mobile app. It handles everything from product variants and role-based admin access to real payments and push notifications — designed to be a real production-ready store, not a demo.",
+      "thumbnail": "/images/projects/shopbd-ecommerce/thumbnail.jpg",
+      "gallery": [
+        "/images/projects/shopbd-ecommerce/thumbnail.jpg",
+        "/images/projects/shopbd-ecommerce/2.jpg",
+        "/images/projects/shopbd-ecommerce/3.jpg"
+      ],
+      "features": [
+        "Role-based access control with Spatie permissions",
+        "Sanctum-secured REST API for the mobile app",
+        "SSLCommerz & Stripe payment integration",
+        "Product variants (size, color, stock per variant)",
+        "FCM push notifications for order updates",
+        "ApexCharts-powered admin analytics dashboard"
+      ],
+      "tech_stack": ["Laravel", "React Native", "MySQL", "Sanctum", "Stripe", "SSLCommerz", "Expo"],
+      "live_url": "#",
+      "github_url": "https://github.com/shahadat1993",
+      "featured": true,
+      "client": "Personal / Case Study",
+      "year": "2025"
+    },
+    {
+      "id": 2,
+      "slug": "learnify-lms",
+      "title": "Learnify LMS",
+      "category": "LMS",
+      "badge": "Education Platform",
+      "short_description": "A Laravel 11 learning management system with a custom design identity.",
+      "description": "Learnify is a full learning management system — courses, modules, video lessons, wishlists, and notifications — wrapped in a custom terracotta-and-teal visual identity so it doesn't feel like a generic LMS template.",
+      "thumbnail": "/images/projects/learnify-lms/thumbnail.jpg",
+      "gallery": [
+        "/images/projects/learnify-lms/thumbnail.jpg",
+        "/images/projects/learnify-lms/2.jpg"
+      ],
+      "features": [
+        "Module & video tree-view course structure",
+        "Wishlist with live badge counts",
+        "Stripe-powered course checkout",
+        "SEO/meta settings panel per course",
+        "Notification system for enrollments & updates"
+      ],
+      "tech_stack": ["Laravel 11", "Spatie Permissions", "Stripe", "Bootstrap", "Alpine.js"],
+      "live_url": "#",
+      "github_url": "#",
+      "featured": true,
+      "client": "Personal / Case Study",
+      "year": "2025"
+    },
+    {
+      "id": 3,
+      "slug": "expo-ecommerce",
+      "title": "Expo E-commerce",
+      "category": "Mobile App",
+      "badge": "Mobile",
+      "short_description": "React Native storefront with a Node/Express/MongoDB backend.",
+      "description": "A three-part e-commerce system: a Node/Express/MongoDB backend, a React admin panel, and an Expo React Native mobile app — using Clerk for auth, Stripe for payments, and Cloudinary for media.",
+      "thumbnail": "/images/projects/expo-ecommerce/thumbnail.jpg",
+      "gallery": ["/images/projects/expo-ecommerce/thumbnail.jpg"],
+      "features": [
+        "Clerk authentication across web + mobile",
+        "Cloudinary image pipeline",
+        "Real-time order status sync",
+        "Admin analytics panel"
+      ],
+      "tech_stack": ["React Native", "Node.js", "MongoDB", "Clerk", "Cloudinary"],
+      "live_url": "#",
+      "github_url": "#",
+      "featured": false,
+      "client": "Personal / Case Study",
+      "year": "2024"
+    },
+    {
+      "id": 4,
+      "slug": "agency-landing",
+      "title": "Adopte Consultant",
+      "category": "Landing Page",
+      "badge": "Marketing Site",
+      "short_description": "Animated marketing landing page with SVG wave sections.",
+      "description": "A pixel-accurate marketing site built from client design references, featuring layered SVG wave dividers, scroll-based reveals, and a fully responsive layout.",
+      "thumbnail": "/images/projects/agency-landing/thumbnail.jpg",
+      "gallery": ["/images/projects/agency-landing/thumbnail.jpg"],
+      "features": [
+        "Custom SVG wave section dividers",
+        "Scroll-to-top interaction",
+        "Pixel-accurate design match",
+        "Fully responsive down to 320px"
+      ],
+      "tech_stack": ["HTML", "CSS", "JavaScript", "Elementor"],
+      "live_url": "#",
+      "github_url": "#",
+      "featured": false,
+      "client": "Adopte Team Consultant",
+      "year": "2024"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "period": "Present",
+    "title": "Full-Stack Developer",
+    "subtitle": "Freelance / Contract Work",
+    "location": "Remote",
+    "description": "Building full-stack Laravel + React Native products end to end — e-commerce, LMS, and admin dashboards for clients.",
+    "type": "experience",
+    "tags": ["Laravel", "React Native", "MySQL"]
+  },
+  {
+    "id": 2,
+    "period": "2023 — 2025",
+    "title": "Web Developer",
+    "subtitle": "Client Projects",
+    "location": "Chattogram",
+    "description": "Delivered Laravel-based e-commerce and business sites with custom admin panels and payment integrations.",
+    "type": "experience",
+    "tags": ["Laravel", "Bootstrap", "jQuery"]
+  },
+  {
+    "id": 3,
+    "period": "2022 — 2026",
+    "title": "BSc in Computer Science",
+    "subtitle": "University",
+    "location": "Chattogram",
+    "description": "Studied core computer science fundamentals alongside building real client projects on the side.",
+    "type": "education",
+    "tags": []
+  },
+  {
+    "id": 4,
+    "period": "2022",
+    "title": "Started self-taught journey",
+    "subtitle": "PHP & Laravel",
+    "location": "Chattogram",
+    "description": "Began learning web development, focused on PHP and Laravel fundamentals through hands-on projects.",
+    "type": "milestone",
+    "tags": []
+  }
+]

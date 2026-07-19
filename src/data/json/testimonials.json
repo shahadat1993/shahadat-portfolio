@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Dheeresh Kumar", "role": "Client", "quote": "His projects consistently stand out because of the craftsmanship. He combines design with solid backend architecture — a rare combination." },
+  { "id": 2, "name": "Aryan Jha", "role": "Fellow Developer", "quote": "Every project he ships feels smooth, modern, and far more considered than a typical freelance build." },
+  { "id": 3, "name": "Manish Pandit", "role": "Project Collaborator", "quote": "He has shown excellent consistency in learning modern tools and applying them creatively in real, shipped projects." },
+  { "id": 4, "name": "Aditya Rajput", "role": "Client", "quote": "I honestly thought he'd used a template at first — turned out he built the entire admin panel and storefront from scratch." },
+  { "id": 5, "name": "Fahim Chowdhury", "role": "Client", "quote": "Communication was excellent throughout — he flagged edge cases before I even thought to ask about them." },
+  { "id": 6, "name": "Nusrat Jahan", "role": "Product Manager", "quote": "Turned a messy spec into a clean, working admin panel in days. Genuinely impressive turnaround." }
+]

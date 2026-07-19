@@ -1,0 +1,21 @@
+{
+  "stats": [
+    { "label": "Technologies", "value": 16 },
+    { "label": "Projects Shipped", "value": 12 },
+    { "label": "Years Experience", "value": 2 }
+  ],
+  "skills": [
+    { "name": "Laravel", "icon": "laravel", "desc": "Backend Framework" },
+    { "name": "PHP", "icon": "php", "desc": "Server-Side Language" },
+    { "name": "MySQL", "icon": "mysql", "desc": "Relational Database" },
+    { "name": "React", "icon": "react", "desc": "UI Component Library" },
+    { "name": "React Native", "icon": "reactnative", "desc": "Cross-Platform Mobile" },
+    { "name": "JavaScript", "icon": "javascript", "desc": "ES6+ Modern Syntax" },
+    { "name": "REST API", "icon": "api", "desc": "System Integration" },
+    { "name": "Tailwind CSS", "icon": "tailwind", "desc": "Utility-First Styling" },
+    { "name": "Bootstrap", "icon": "bootstrap", "desc": "UI Framework" },
+    { "name": "Git & GitHub", "icon": "git", "desc": "Version Control" },
+    { "name": "Sanctum", "icon": "lock", "desc": "API Authentication" },
+    { "name": "Stripe / SSLCommerz", "icon": "payment", "desc": "Payment Integration" }
+  ]
+}

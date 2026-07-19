@@ -1,0 +1,44 @@
+{
+  "categories": ["All", "Laravel", "React", "Career"],
+  "items": [
+    {
+      "id": 1,
+      "slug": "laravel-11-routing-changes",
+      "title": "What changed in Laravel 11 routing",
+      "category": "Laravel",
+      "excerpt": "A quick look at bootstrap/app.php and how route registration moved away from Kernel.php.",
+      "thumbnail": "/images/blogs/laravel-11-routing-changes/thumbnail.jpg",
+      "tags": ["Laravel", "PHP"],
+      "published_at": "2026-05-12",
+      "read_time": "6 min read",
+      "author": "Shahadat Hossain",
+      "content": [
+        { "type": "paragraph", "text": "Laravel 11 simplified the application skeleton significantly. Route registration, middleware, and exception handling all moved into bootstrap/app.php, replacing the old Kernel.php files most Laravel developers grew up with." },
+        { "type": "image", "src": "/images/blogs/laravel-11-routing-changes/1.jpg", "align": "right", "caption": "The new bootstrap/app.php structure" },
+        { "type": "heading", "text": "Why api.php stopped loading automatically" },
+        { "type": "paragraph", "text": "By default, a fresh Laravel 11 install only registers routes/web.php. If your project needs an API, you have to explicitly tell withRouting() where to find routes/api.php — otherwise every API route silently 404s, which is a confusing first bug to hit." },
+        { "type": "image", "src": "/images/blogs/laravel-11-routing-changes/2.jpg", "align": "left", "caption": "Registering routes explicitly" },
+        { "type": "paragraph", "text": "Once you register it explicitly, everything works the same way you'd expect from Laravel 10 — it's really just a relocation of configuration, not a change in behavior." },
+        { "type": "image", "src": "/images/blogs/laravel-11-routing-changes/3.jpg", "align": "center", "caption": "A clean, minimal application skeleton" },
+        { "type": "paragraph", "text": "Overall, the change makes small projects easier to reason about, at the cost of a few gotchas for anyone porting an older app forward." }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "react-native-reanimated-pinning",
+      "title": "Why pinning reanimated versions matters",
+      "category": "React",
+      "excerpt": "A note on keeping react-native-reanimated and worklets versions in sync for Expo Go.",
+      "thumbnail": "/images/blogs/react-native-reanimated-pinning/thumbnail.jpg",
+      "tags": ["React Native", "Expo"],
+      "published_at": "2026-04-02",
+      "read_time": "4 min read",
+      "author": "Shahadat Hossain",
+      "content": [
+        { "type": "paragraph", "text": "When working with Expo SDK 54, pinning react-native-reanimated@4.1.1 and react-native-worklets@0.5.1 avoids native crash issues that show up only on physical devices, not in the simulator." },
+        { "type": "image", "src": "/images/blogs/react-native-reanimated-pinning/1.jpg", "align": "right", "caption": "Version mismatches only show up at runtime" },
+        { "type": "paragraph", "text": "The safest approach is to lock exact versions in package.json rather than using caret ranges, then verify with expo doctor before every release build." }
+      ]
+    }
+  ]
+}

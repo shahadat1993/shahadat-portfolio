@@ -1,0 +1,22 @@
+{
+  "name": "Shahadat Hossain",
+  "firstName": "Shahadat",
+  "role": ["Full-Stack Developer", "Laravel Engineer", "React Native Builder"],
+  "tagline": "Turning ideas into full-stack products through elegant, reliable code.",
+  "bio": "I build scalable applications with a strong focus on clean architecture, delightful UX, and performance. My toolkit spans Laravel, React, and React Native — bringing ideas to life from concept to production with robust APIs and smooth interfaces.",
+  "location": "South Middle Halishahar, Bandar, Chattogram, Bangladesh",
+  "email": "s0735949@gmail.com",
+  "availableForWork": true,
+  "photo": "/images/profile/photo.jpg",
+  "resumeUrl": "/resume/resume.pdf",
+  "stats": [
+    { "label": "Experience", "value": "2+ years" },
+    { "label": "Specialty", "value": "Full Stack" },
+    { "label": "Focus", "value": "Laravel + React" }
+  ],
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/shahadat1993", "icon": "github" },
+    { "label": "LinkedIn", "url": "#", "icon": "linkedin" },
+    { "label": "Twitter", "url": "#", "icon": "twitter" }
+  ]
+}
